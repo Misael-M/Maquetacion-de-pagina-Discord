@@ -1,0 +1,121 @@
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: helvetica, sans-serif;
+}
+
+.fondo-oscuro {
+    background-color: #23272A;
+    height: 600px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;            
+    padding: 20px 40px;             
+}
+.logo {
+    height: 35px;
+    display: flex;
+}
+.logo img {
+    height: 100%; 
+}
+.menu {
+    display: flex;
+    gap: 25px; 
+}
+.opciones {
+    text-decoration: none;
+    color: white;
+    font-weight: bold; 
+    font-size: 15px;
+}
+.login {
+    background-color: white; 
+    color: black;            
+    text-decoration: none;
+    padding: 10px 20px;      
+    border-radius: 40px;     
+    font-weight: bold;
+    font-size: 14px;
+}
+.barras-menu {
+    display: none;
+}
+
+.contenedor-principal {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px; 
+        margin: 0 auto;    
+        padding: 80px 40px;
+        gap: 40px;
+}
+.columna-texto {
+    flex: 1; 
+    color: white;
+    max-width: 550px;
+}
+.titulo-principal {
+    font-size: 60px;
+    font-weight: 900;
+    font-family: 'Arial Black', sans-serif; 
+    line-height: 1;
+    margin-bottom: 30px;
+    text-transform: uppercase; 
+}
+.descripcion {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    }
+.fila-descarga {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.boton-descarga {
+    background-color: #5865F2; 
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center; 
+    gap: 12px;          
+}
+.texto-requisito {
+    font-size: 14px;
+    color: #b9bbbe; 
+}
+.columna-imagen {
+    flex: 1; 
+    display: flex;
+    justify-content: flex-end;
+}
+.imagen-laptop {
+    width: 100%;
+}
+.boton-descarga {
+    background-color: #5865F2; 
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center; 
+    gap: 12px;          
+}

@@ -1,0 +1,23 @@
+@media (max-width: 480px) {
+.fondo-oscuro {
+    height: 1000px;
+}
+.menu {
+    display: none;
+}
+.login {
+    display: none;
+}
+.barras-menu {
+    display: contents;
+    font-size: 50px;
+}
+.logo {
+    height: 60px;
+}
+.columna-imagen {
+    display: flex;
+    flex-wrap: wrap;
+    flex: auto;
+}
+}
